@@ -1,4 +1,4 @@
-package github.com/legendary-cookie/gon2u
+package gon2u
 
 import "net/http"
 import "encoding/json"
