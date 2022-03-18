@@ -1,3 +1,3 @@
-module github.com/legendary-cookie/mc-name2uuid
+module github.com/legendary-cookie/gon2u
 
 go 1.18

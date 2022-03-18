@@ -1,4 +1,4 @@
-package main
+package github.com/legendary-cookie/gon2u
 
 const apiurl string = "https://api.mojang.com/users/profiles/minecraft"
 
