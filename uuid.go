@@ -4,8 +4,8 @@ import "net/http"
 import "encoding/json"
 import "io/ioutil"
 
-func NameToUUID(name string) (string, error) {
-	resp, err := http.Get(nameurl + name)
+func UUIDToName(uuid string) (string, error) {
+	resp, err := http.Get(uuidurl + uuid)
 	if err != nil {
 		return "", err
 	}
@@ -19,5 +19,5 @@ func NameToUUID(name string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return v.UUID, nil
+	return v.Name, nil
 }
